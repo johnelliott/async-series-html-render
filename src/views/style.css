@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 1em 15% 1em 15%;
+  padding: 0;
+  color: #222225;
+  background-color: ghostwhite;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 1em;
+  }
+}
+
+code {
+  font-family: Monaco, monospace;
+}
+
+a {
+  color: #0547e6;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+}
