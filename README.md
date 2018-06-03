@@ -1,6 +1,6 @@
 An experiment with rendering
 
-This server incrementally renders templates in order. The header can render before database or API responses return. Each part renders as soon as it arrives or the one before it has arrives.
+This server incrementally renders templates in order. The header can render before database or API responses return. Each part renders as soon as it arrives or the one before it arrives.
 
 This technique is not very useful. After a more than few async resources something like head-of-line blocking makes it about as fast as just Promise.all.
 
