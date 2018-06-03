@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && NODE_ENV=development DEBUG=starter* firebase serve",
+    "start": "npm run build && NODE_ENV=development DEBUG=fb* firebase serve",
     "build": "rimraf functions && npm run build:package && npm run build:views && npm run build:functions",
     "build:views": "cpx -v -C \"src/views/*\" functions/views",
     "build:functions": "cpx -v -C src/index.js functions",
