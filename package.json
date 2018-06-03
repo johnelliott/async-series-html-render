@@ -1,5 +1,5 @@
 {
-  "name": "express-render-test",
+  "name": "async-series-html-render",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
